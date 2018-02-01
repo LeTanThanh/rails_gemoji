@@ -7,7 +7,7 @@
 
 <p>
   <strong>Content:</strong>
-  <%= emojify @post.content %>
+  <%= insert_emoji_image @post.content %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
